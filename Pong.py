@@ -80,9 +80,9 @@ wn.onkeypress(paddle_b_down, "Down")
 
 # Main game loop
 while True:
-    wn.update()	
-
-	# Move the ball
+    wn.update()
+    
+    # Move the ball
     ball.setx(ball.xcor() + ball.dx)
     ball.sety(ball.ycor() + ball.dy)
 
