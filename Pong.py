@@ -44,7 +44,7 @@ ball.dy = 2
 pen = turtle.Turtle()
 pen.speed(0)
 pen.shape("square")
-pen.color("white")
+pen.color("green")
 pen.penup()
 pen.hideturtle()
 pen.goto(0, 260)
